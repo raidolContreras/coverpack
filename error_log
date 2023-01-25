@@ -1,0 +1,9 @@
+[16-Dec-2022 11:55:29 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home1/coberpac/public_html/SGCP/modelos/formularios.modelo.php:489
+Stack trace:
+#0 /home1/coberpac/public_html/SGCP/controladores/formularios.controlador.php(516): ModeloFormularios::mdlSeleccionarPedidosFecha('', '')
+#1 /home1/coberpac/public_html/SGCP/vistas/paginas/reportefecha.php(45): ControladorFormularios::ctrSeleccionarPedidosFecha('', '')
+#2 /home1/coberpac/public_html/SGCP/vistas/plantilla.php(256): include('/home1/coberpac...')
+#3 /home1/coberpac/public_html/SGCP/controladores/plantilla.controlador.php(12): include('/home1/coberpac...')
+#4 /home1/coberpac/public_html/SGCP/index.php(16): ControladorPlantilla->ctrTraerPlantilla()
+#5 {main}
+  thrown in /home1/coberpac/public_html/SGCP/modelos/formularios.modelo.php on line 489
